@@ -1,0 +1,107 @@
+html {
+   height: 100%;
+ }
+ body {
+    height: 100%;
+    background-color: #222222;
+    /*text-align: center;*/
+    color: white;
+    font-family: cursive;
+    filter: opacity(75);
+    opacity: 0.75;
+ }
+
+ header {
+     background-color:#000000;
+     padding:5px;
+     font-size:20px ;
+     display: flex;
+     width: 800px;
+     font-family: 'Great Vibes', cursive;
+     border: 5px dashed #f4eb21;
+     position: relative;
+     right: 15px;
+
+
+ }
+ .rock{
+   position: relative;
+   left: 60px;
+
+
+ }
+ .para{
+   position: relative;
+   left: 50px;
+
+ }
+ .Bagpic{
+display: flex;
+border: 10px;
+
+
+ }
+ #handbag{
+   border-radius: 100px;
+   width: 200px;
+   height: 200px;
+   border-style: solid;
+   border-color: #f4eb21;
+
+     }
+#rockpic{
+  border-radius: 220px;
+  width: 220px;
+  height: 200px;
+  border-style: solid;
+  border-color: #f4eb21;
+
+}
+/*li{
+color: black;
+}*/
+ nav {
+
+    background-color:#f4eb21;
+    padding-top: 20px;
+     width:300px;
+     height: 800px;
+     display: inline-block;
+     vertical-align:top;
+     text-align: left;
+     border: 5px dashed #000000;
+     font-size: 30px;
+     position: relative;
+     right: 15px;
+
+
+ }
+ nav ul {
+     list-style-type: none;
+
+ }
+ a {
+
+     color:#000000 ;
+ }
+ section {
+     width: 516px;
+     display: inline-block;
+ }
+ aside {
+   width: 125px;
+   display: inline-block;
+   vertical-align: top;
+   background-color:;
+   font-size: ;
+ }
+ aside ul {
+     list-style-type: none;
+ }
+ footer {
+     width: 790px;
+     background-color:;
+     text-align:;
+     padding:5px;
+     display: block;
+ }

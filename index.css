@@ -1,0 +1,92 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+       height: 100%;
+       background-color: black;
+       color: white;
+    }
+
+    header {
+
+        background-color: black;
+        padding: 0px;
+        display: inline-flex;
+        height: 225px;
+        width: 100%;
+        border: 3px dashed #DAA520;
+    }
+    nav {
+        background-color:#DAA520;
+        padding-top: 60px;
+        width:300px;
+        display: inline-flex;
+        vertical-align: top;
+        height: 370px;
+        border: 3px dashed black;
+    }
+    nav ul {
+        list-style-type: none;
+        font-family: 'Great Vibes', cursive;
+        color: black;
+        font-size: 30px;
+        text-align: left;
+        line-height: 200%;
+    }
+
+    a:link {
+        color: black;
+    }
+
+    a:visited {
+      color: green;
+    }
+
+    a:hover {
+      color: white;
+    }
+
+    h1 {
+      font-size: 72px;
+      font-family: 'Great Vibes', cursive;
+      color: #DAA520;
+      display: block;
+      padding-left: 30px;
+      text-align: center;
+    }
+    h2 {
+      display: block;
+      padding-left: 30px;
+      text-align: center;
+      text-decoration: underline;
+      font-style: italic;
+    }
+    h3 {
+      text-align: center;
+      padding-left: 50px;
+      font-size: 32px;
+    }
+    p {
+      text-align: center;
+      padding-left: 50px;
+    }
+    #topicon {
+      width: 300px;
+      height: auto;
+      display: inline-block;
+      }
+    section {
+        width: 800px;
+        display: inline-block;
+    }
+    footer {
+        width: 100%;
+        background-color:;
+        text-align:right;
+        padding-left: 0px;
+        border: 3px dashed #DAA520;
+    }
